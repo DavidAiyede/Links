@@ -1,0 +1,81 @@
+:root {
+  --darkcolor:rgba(0, 0, 0, 0.822);
+  --whitecolor: white;
+}
+h1 {
+  text-align: center;
+  color: var(--whitecolor);
+}
+body {
+  background-color: var(--darkcolor);
+  color: rgba(255, 255, 255, 0.616);
+}
+img {
+  width: 50px;
+  height: 50px;
+}
+P {
+  color: var(--whitecolor);
+}
+i{
+  color: var(--whitecolor);
+}
+a {
+  text-decoration: none;
+  text-align: center;
+}
+.Header {
+  text-align: center;
+  color: var(--whitecolor);
+}
+.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 5%;
+  margin-bottom: -20px;
+  line-height: 5px;
+}
+.link {
+  display: flex;
+  flex-direction: column;
+  line-height: 3px;
+  align-items: center;
+}
+.img {
+  background-color: var(--whitecolor);
+  padding: 15px;
+  border-radius: 50%;
+}
+.cancel {
+  padding: 8px;
+  padding-bottom: 5px;
+  border-radius: 50%;
+  background-color: var(--whitecolor);
+  color: black;
+  position: absolute;
+  top: 10px;
+  right: 20px;
+}
+.chart{
+      position: relative;
+      display: flex;
+      text-align: center;
+      justify-content: center;
+  
+}
+.link--{
+  border-radius: 50%;
+  background-color:black;
+  padding: 10px;
+  margin-left:95%;
+  position: absolute;
+  top: 10px;
+}
+@media (min-width:768px){
+  .Header{
+  line-height: 2%;
+  }
+
+}
